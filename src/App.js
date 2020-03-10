@@ -4,17 +4,17 @@ import './App.css'
 import { Button, Row } from './components'
 
 import { JEWELS } from './constants/jewel'
-import { generateGrid } from './helper/utils'
+import { generateValidGrid } from './helper/utils'
 
 function App() {
 	const [grid, setGrid] = useState([])
 
 	useEffect(() => {
-		setGrid(generateGrid(JEWELS, 8, 8))
+		setGrid(generateValidGrid(JEWELS, 8, 8))
 	}, [])
 
 	const onReloadClick = () => {
-		setGrid(generateGrid(JEWELS, 8, 8))
+		setGrid(generateValidGrid(JEWELS, 8, 8))
 	}
 
 	return (
