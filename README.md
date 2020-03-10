@@ -28,6 +28,12 @@ Go to http://localhost:3000
 
 Screeshot: ![Sceenshot](https://github.com/proIT324/bejeweled-grid/blob/master/screenshots/screenshot002.png)
 
+Test the project
+
+```sh
+yarn test
+```
+
 ## NOTE:
 
 In general, the first step of project setup is to configure professional build process such as linting and CI/CD. Since this project is very small, I skipped it.
